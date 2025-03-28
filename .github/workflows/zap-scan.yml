@@ -2,6 +2,10 @@ name: ZAP Integration with GitHub Actions
 
 on: [push]
 
+permissions:
+  contents: read
+  checks: write
+
 jobs:
   zap_scan:
     runs-on: ubuntu-latest
