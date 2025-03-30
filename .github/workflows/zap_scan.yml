@@ -8,6 +8,7 @@ permissions:
   contents: read
   checks: write
   actions: write
+  packages: write
 
 jobs:
   zap_scan:
